@@ -1,0 +1,111 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("../imagens/degrade2.jpg");
+	background-position: 35% 5%;
+	color: white;
+	font-family: arial;
+}
+
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 20px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.50);
+	color: white;
+	outline: none;
+}
+
+div#corpo-form{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 150px auto 0px auto;
+}
+
+div#corpo-form-Cad{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 100px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form-Cad{
+	text-align: center;
+	padding: 20px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+input[type=submit]{
+	background-color: #e78a8a;
+	border: none;
+	cursor: pointer;
+}
+.wrapper 
+{
+	background: rgba(186, 28, 207, 0.6);
+	max-width: 550px;
+	width: 100%;
+	padding: 4px;
+	border-radius: 90px;
+	display: flex;
+	justify-content: space-between;
+	}
+	
+.wrapper input{
+	width: 100%;
+	height: 100%;
+	padding: 1px 1px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 17px;
+	border: solid;
+	border-width: 1px;
+}
+.searchbtn {
+	background: #ffec00;
+	width: 4%;
+	height: 10%;
+	border-radius: 5px;
+	border: solid;
+	border-width: 1px;
+	position: absolute;
+	left: 67%;
+	cursor: pointer;
+}
+.contato-ul {
+	color: black;
+}
+.contato-ul li {
+	list-style-type: none;
+	font-size: 22px;
+	margin: 0 0 0 75px;
+
+}
+.contato-ul h1 {
+	margin: 0 0 0 50px;
+
+}
+.sobre {
+	color: black;
+	font-size: 20px;
+	margin: 0 75px;
+}
+.audiobooks {
+	color: black;
+	font-size: 20px;
+	margin: 0 0 20px 0;
+}
